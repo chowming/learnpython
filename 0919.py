@@ -73,3 +73,21 @@ def power(x, n):
 
 print(power(100, 20))
 print(power(100, -1))
+
+
+def fact(x):
+    if x == 1:
+        return x
+    else:
+        return x * fact(x - 1)
+
+
+print(fact(100))
+
+def default_arg(x,y=120):
+    print(x * y)
+    return
+
+print(default_arg(1))
+print(default_arg(100,9))
+
